@@ -20,7 +20,6 @@ class InteractiveRecord
     end
 
     column_names
-
   end
 
 end

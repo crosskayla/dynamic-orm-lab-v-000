@@ -4,7 +4,7 @@ require 'interactive_record.rb'
 
 class Student < InteractiveRecord
 
-  def initialize(options = {})
+  def initialize(options={})
     options.each do |property, value|
       self.send("#{property}=", value)
     end

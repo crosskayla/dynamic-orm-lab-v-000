@@ -4,4 +4,7 @@ require 'interactive_record.rb'
 
 class Student < InteractiveRecord
 
+  def initialize(name, album)
+  end
+
 end

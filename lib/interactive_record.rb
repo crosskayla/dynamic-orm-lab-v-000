@@ -37,6 +37,4 @@ class InteractiveRecord
     self.class.column_names.delete("id").join(", ")
   end
 
-  def
-
 end

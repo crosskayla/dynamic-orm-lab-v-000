@@ -35,5 +35,6 @@ class InteractiveRecord
 
   def col_names_for_insert
     self.column_names.join(', ')
+  end
 
 end

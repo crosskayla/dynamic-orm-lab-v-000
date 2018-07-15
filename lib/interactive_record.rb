@@ -60,7 +60,8 @@ class InteractiveRecord
     WHERE name = #{self.name}
     SQL
 
-    DB[:conn].execute(sql)
+    result = DB[:conn].execute(sql)
+    result[0]
 
   end
 

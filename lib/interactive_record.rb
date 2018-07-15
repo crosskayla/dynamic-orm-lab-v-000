@@ -20,6 +20,7 @@ class InteractiveRecord
     end
 
     column_names.compact
+    binding.pry
   end
 
   self.column_names.each do |col_name|

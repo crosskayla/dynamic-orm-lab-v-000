@@ -4,7 +4,10 @@ require 'interactive_record.rb'
 
 class Student < InteractiveRecord
 
-  def initialize(name, album)
+  def initialize(attrs = {})
+    attrs.each do |column, value|
+      self.send("#{column}=", value)
+    end
   end
 
 end

@@ -63,6 +63,7 @@ class InteractiveRecord
     result = DB[:conn].execute(sql)
   end
 
-  def self.find_by
+  def self.find_by(hash)
+  end
 
 end

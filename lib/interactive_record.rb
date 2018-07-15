@@ -61,7 +61,8 @@ class InteractiveRecord
     SQL
 
     result = DB[:conn].execute(sql)
-
   end
+
+  def self.find_by
 
 end

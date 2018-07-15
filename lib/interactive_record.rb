@@ -19,7 +19,7 @@ class InteractiveRecord
       column_names << column["name"]
     end
 
-    column_names
+    column_names.compact
   end
 
   self.column_names.each do |col_name|
